@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shantam Attry</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/f27639b3e2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <i class="fa-regular fa-circle-xmark"></i> -->
+          </ul>
+          <!-- <i class="fa-solid fa-bars"></i> -->
+        </nav>
+        <div class="header-text">
+          <p>CSE Undergraduate</p>
+          <h1>
+            Hi, I'm <span> Shantam </span> <br />
+            Attry from Delhi,IN
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------about------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user1.png" alt="image not available" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Passionate and driven Computer Science and Engineering
+              undergraduate. With a knack for problem-solving and a love for
+              coding, I'm ready to dive into the world of technical graduate
+              internships. My eagerness to contribute to cutting-edge projects
+              and a constant willingness to learn and improve will make every
+              day an exciting adventure in the world of software development.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"  onclick="opentab('experience')" >Experience</p>
+              <p class="tab-links"  onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span><b>HTML</b></span><br>Good understanding of HTML with hands on experience in creating websites. </li>
+                    <li><span><b>CSS</b></span><br>Good understanding of CSS(Cascading Style Sheets) with hands on experience in creating websites.</li>
+                    <li><span><b>Javascript</b></span><br>Basic understanding of Javascript that can be used for making the websites interactive.</li>
+                    <li><span><b>Bootstrap</b></span><br>Familiarity with usage of Bootstrap in order to provide compatibility to websites across browsers.</li>
+                    <li><span><b>Python</b></span><br>Good understanding of Python programming language.</li>
+                    <li><span><b>PHP</b></span><br>Familiar with usage of PHP to create dynamic web pages that can interact with databases.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span><b>June 2022 - July 2022</b></span> <br><b>Frontend Developer Intern at Tevatron Technologies Pvt. Ltd.</b> <div class="description"> <br> Been a part of 
+                        Tevatron Technologies Pvt. Ltd. as a Frontend Developer Intern. Handled the responsibility of creating website from scratch, with hands on experience in relevant technologies.</div></li>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span><b>2017-2018</b></span><br>AISSE(Class X CBSE Board Examination) from DLF Public School, Ghaziabad, UP</li>
+                    <li><span><b>2019-2020</b></span><br>AISSCE(Class XII CBSE Board Examination) from DLF Public School, Ghaziabad, UP</li>
+                    <li><span><b>2020-2024</b></span><br>B-tech in CSE from Jaypee University of Information Technology, Solan, HP</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------interests------------ -->
+    <div id="interests">
+        <div class="container">
+            <h1 class="sub-title">I am interested in</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates doloribus quisquam dignissimos facilis beatae nesciunt dolor, 
+                    aliquam consectetur tempore maxime, provident exercitationem natus vero?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates doloribus quisquam dignissimos facilis beatae nesciunt dolor, 
+                    aliquam consectetur tempore maxime, provident exercitationem natus vero?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>DevOps</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates doloribus quisquam dignissimos facilis beatae nesciunt dolor, 
+                    aliquam consectetur tempore maxime, provident exercitationem natus vero?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="image not available">
+                    <div class="layer">
+                        <h3>TWITTER STREAMING ANALYSIS</h3>
+                        <p>In my Twitter streaming analysis project, I leveraged the Tweepy library in Python to collect real-time tweets
+                            from Twitter’s streaming API. By analyzing this live data, I gained valuable insights into trending topics, user
+                            sentiments, and engagement levels, enabling a deeper understanding of the Twitter landscape.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="image not available">
+                    <div class="layer">
+                        <h3>PORTFOLIO WEBSITE (PERSONAL)</h3>
+                        <p>In my personal portfolio website project, I designed and developed a visually appealing and user-friendly
+                            website to showcase my professional achievements, skills, and projects. Through an intuitive interface and
+                            carefully curated content, I aimed to create a compelling online presence that highlights my expertise and
+                            attracts potential clients or employers</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="image not available">
+                    <div class="layer">
+                        <h3>MACHINE LEARNING MODEL FOR DETECTING AND PREVENTING SQL INJECTION ATTACKS ON
+                            WEBPAGES</h3>
+                        <p>In my project on Machine Learning model for detecting and preventing SQL Injection attacks on webpages, I
+                            developed a robust solution using supervised learning algorithms, combined with the usage of PHP. By
+                            training the model on a labeled dataset of normal and attack queries, it effectively identified and blocked SQL
+                            Injection attempts, enhancing the security of web applications and protecting against potential data breaches.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- --------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>attry.shantam@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9625005675</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shantam2507/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/201400_Shantam.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shantam. Made with <i class="fa-solid fa-heart"></i> by Shantam Attry </p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbx1YWwa1VS8sy1SS5qtYvELwxU6SPlxHnrrzEN2XocdTb4sbwEsL4lXi53kvz3f8ox6/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+  </body>
+</html>
